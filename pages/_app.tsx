@@ -4,12 +4,16 @@ import Footer from '../components/Footer';
 import theme from '../libs/theme';
 import Layout from '../components/layouts/Main';
 import Fonts from '../components/Fonts';
+import React from 'react';
+import { AnimatePresence } from 'framer-motion';
 export default function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
       <Layout router={router}>
-        <Component {...pageProps} />
+        <AnimatePresence exitBeforeEnter initial={true}>
+          <Component {...pageProps} />
+        </AnimatePresence>
       </Layout>
       <Footer />
     </ChakraProvider>
