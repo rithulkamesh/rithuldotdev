@@ -19,7 +19,7 @@ const components = {
         textDecorationColor: '#595959',
         textDecorationThickness: 4,
         marginTop: 3,
-        marginBottom: 4,
+        marginBottom: 4
       },
       'section-subtitle': {
         textDecoration: 'underline',
@@ -28,7 +28,7 @@ const components = {
         textDecorationColor: '#595959',
         textDecorationThickness: 4,
         marginTop: 3,
-        marginBottom: 4,
+        marginBottom: 4
       }
     }
   },

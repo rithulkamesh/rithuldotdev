@@ -12,8 +12,7 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue,
-  StackDirection
+  useColorModeValue
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { FaGithubAlt, FaHome, FaBlog, FaProjectDiagram } from 'react-icons/fa';

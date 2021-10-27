@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 
 let LogoStyle = styled.span`
   font-weight: bold;
-  font-size:20px;
+  font-size: 20px;
   display: inline-flex;
   align-items: center;
   height: 30px;

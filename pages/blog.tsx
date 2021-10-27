@@ -1,8 +1,8 @@
-import { Container, Heading, SimpleGrid, Center } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import React from 'react'
-import Section from '../components/Section'
-import Paragraph from '../components/paragraph'
+import { Container, Heading } from '@chakra-ui/react';
+import Layout from '../components/layouts/article';
+import React from 'react';
+import Section from '../components/Section';
+import Paragraph from '../components/paragraph';
 const Works = () => (
   <Layout title="Projects">
     <Container>
@@ -12,11 +12,11 @@ const Works = () => (
         </Heading>
         <Paragraph>
           {' '}
-         This page is under development and will be released really soon!
+          This page is under development and will be released really soon!
         </Paragraph>
       </Section>
     </Container>
   </Layout>
-)
+);
 
-export default Works
+export default Works;

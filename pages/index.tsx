@@ -39,10 +39,17 @@ export default function Home() {
             Rithul Kamesh
           </Heading>
           <p>Student, Developer, Musician</p>
-          <Link href="https://www.google.com/search?q=Bangalore" target="_blank">
-          <Button variant="ghost" leftIcon={<FaMapMarkerAlt />} colorScheme="teal">
-            Bangalore, Karnataka, India
-          </Button>
+          <Link
+            href="https://www.google.com/search?q=Bangalore"
+            target="_blank"
+          >
+            <Button
+              variant="ghost"
+              leftIcon={<FaMapMarkerAlt />}
+              colorScheme="teal"
+            >
+              Bangalore, Karnataka, India
+            </Button>
           </Link>
         </Box>
         <Box
