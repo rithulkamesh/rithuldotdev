@@ -43,7 +43,7 @@ export default function Nav(props) {
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff20', '#20203380')}
-      style={{ backdropFilter: 'blur(10px' }}
+      style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
     >
