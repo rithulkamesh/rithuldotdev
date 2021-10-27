@@ -1,0 +1,39 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import { Text, useColorModeValue } from '@chakra-ui/react';
+import styled from '@emotion/styled';
+
+let LogoStyle = styled.span`
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+  &:hover img {
+    transform: rotate(20deg);
+  }
+`;
+
+export default function Logo() {
+  var image = `/images/NavLogo-${useColorModeValue('black', 'white')}.png`;
+  return (
+    <Link href="/">
+      <a>
+        <LogoStyle>
+          <Image src={image} width={20} height={20} alt="R in Potra" />
+          <Text
+            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            fontFamily="@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');"
+            letterSpacing={0}
+            fontWeight="bold"
+            ml={3}
+          >
+            Rithul Kamesh
+          </Text>
+        </LogoStyle>
+      </a>
+    </Link>
+  );
+}
