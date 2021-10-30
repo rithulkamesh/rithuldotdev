@@ -42,7 +42,7 @@ export default function Nav(props) {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff20', '#20203380')}
+      bg={useColorModeValue('#ADA7A720', '#4C527090')}
       style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
