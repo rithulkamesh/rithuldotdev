@@ -146,7 +146,7 @@ export default function Home() {
           </ListItem>
         </OrderedList>
       </Section>
-      <Section delay={0.2}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           Find me on the internet
         </Heading>
@@ -170,17 +170,6 @@ export default function Home() {
                 leftIcon={<FaTwitter />}
               >
                 @rithulkamesh
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="mailto:rithul@sumbox.org" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<FaEnvelopeOpen />}
-              >
-                rithul@sumbox.org
               </Button>
             </Link>
           </ListItem>
