@@ -23,7 +23,7 @@ const project = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux Server</span>
+          <span>Any Server software</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>

@@ -41,7 +41,6 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     </NextLink>
   </Box>
 );
-
 export const GridItemStyle = () => (
   <Global
     styles={`

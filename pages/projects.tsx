@@ -4,6 +4,7 @@ import Section from '../components/Section';
 import { WorkGridItem } from '../components/grid-item';
 
 import thumbjaegerpanel from '../public/images/projects/jaegerpanel.png';
+import thumblinky from '../public/images/projects/linky.png';
 import React from 'react';
 const Works = () => (
   <Layout title="Projects">
@@ -20,6 +21,12 @@ const Works = () => (
             thumbnail={thumbjaegerpanel}
           >
             A Hosting panel with all the features you would ever imagine!
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="linky" title="Linky" thumbnail={thumblinky}>
+            A self-hosted link shortener made with TypeScript and MySQL
           </WorkGridItem>
         </Section>
       </SimpleGrid>

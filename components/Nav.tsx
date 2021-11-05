@@ -17,6 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { FaGithubAlt, FaHome, FaBlog, FaProjectDiagram } from 'react-icons/fa';
 import ThemeSwitcher from './themeSwitcher';
+
 function LinkItem({ href, path, children }) {
   const active = path === href;
   const inactivecolor = useColorModeValue('gray200', 'whiteAlpha.900');
@@ -75,9 +76,6 @@ export default function Nav(props) {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="/blog" path={path}>
-            Blog
-          </LinkItem>
         </Stack>
         <ThemeSwitcher />
         <Box flex={1} align="right">
@@ -100,18 +98,6 @@ export default function Nav(props) {
                   <MenuItem as={Link}>
                     <FaProjectDiagram />
                     &nbsp;Projects
-                  </MenuItem>
-                </NeLi>
-                <NeLi href="/blog" passHref>
-                  <MenuItem as={Link}>
-                    <FaBlog />
-                    &nbsp;Blog
-                  </MenuItem>
-                </NeLi>
-                <NeLi href="/source" passHref>
-                  <MenuItem as={Link}>
-                    <FaGithubAlt />
-                    &nbsp;Website Source
                   </MenuItem>
                 </NeLi>
               </MenuList>
