@@ -15,7 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
-import { FaGithubAlt, FaHome, FaBlog, FaProjectDiagram } from 'react-icons/fa';
+import { FaHome, FaProjectDiagram } from 'react-icons/fa';
 import ThemeSwitcher from './themeSwitcher';
 
 function LinkItem({ href, path, children }) {
