@@ -4,7 +4,7 @@ import Section from '../components/Section';
 import { WorkGridItem } from '../components/grid-item';
 
 import thumbjaegerpanel from '../public/images/projects/jaegerpanel.png';
-import thumblinky from '../public/images/projects/linky.png';
+import thumblinky from '../public/images/projects/Linky.png';
 import React from 'react';
 const Works = () => (
   <Layout title="Projects">
@@ -26,7 +26,7 @@ const Works = () => (
 
         <Section>
           <WorkGridItem id="linky" title="Linky" thumbnail={thumblinky}>
-            A self-hosted link shortener made with TypeScript and MySQL
+            A self-hosted link shortener made with TypeScript and MySQL.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
