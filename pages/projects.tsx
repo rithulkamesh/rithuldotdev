@@ -3,8 +3,8 @@ import Layout from '../components/layouts/article';
 import Section from '../components/Section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumbjaegerpanel from '../public/images/projects/jaegerpanel.png';
 import thumblinky from '../public/images/projects/Linky.png';
+import thumbEcoradius from '../public/images/projects/ecoradius.png';
 import React from 'react';
 const Works = () => (
   <Layout title="Projects">
@@ -14,16 +14,11 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem
-            id="jaegerpanel"
-            title="Jaeger Panel"
-            thumbnail={thumbjaegerpanel}
-          >
-            A Hosting panel with all the features you would ever imagine!
+      <Section>
+          <WorkGridItem id="ecoradius" title="Ecoradius" thumbnail={thumbEcoradius}>
+            A mission to make the environment cleaner by making it fun.
           </WorkGridItem>
         </Section>
-
         <Section>
           <WorkGridItem id="linky" title="Linky" thumbnail={thumblinky}>
             A self-hosted link shortener made with TypeScript and MySQL.
