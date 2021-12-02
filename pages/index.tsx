@@ -11,11 +11,7 @@ import {
   Button
 } from '@chakra-ui/react';
 import React from 'react';
-import {
-  FaGithub,
-  FaMapMarkerAlt,
-  FaTwitter
-} from 'react-icons/fa';
+import { FaGithub, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
 import { BioYear, Bio } from '../components/Bio';
 import Paragraph from '../components/paragraph';
 import Section from '../components/Section';
@@ -38,10 +34,7 @@ export default function Home() {
             Rithul Kamesh
           </Heading>
           <p>Student, Developer, Musician</p>
-          <Link
-            href="https://www.google.com/search?q=Bangalore"
-            target="_blank"
-          >
+          <Link href="//www.google.com/search?q=Bangalore" target="_blank">
             <Button
               variant="ghost"
               leftIcon={<FaMapMarkerAlt />}
@@ -98,7 +91,7 @@ export default function Home() {
         <Bio>
           <BioYear>2012</BioYear>
           Discovered and Tried{' '}
-          <Link href="https://scratch.mit.edu" target="_blank">
+          <Link href="//scratch.mit.edu" target="_blank">
             Scratch
           </Link>{' '}
           for the first time.
@@ -111,7 +104,7 @@ export default function Home() {
         <Bio>
           <BioYear>2020</BioYear>
           Finally discovered{' '}
-          <Link href="https://nodejs.dev/" target="_blank">
+          <Link href="//nodejs.dev/" target="_blank">
             Node.js
           </Link>{' '}
           and how to use it. Instantly fell in love. On the side, was learning
@@ -120,7 +113,7 @@ export default function Home() {
         <Bio>
           <BioYear>2021</BioYear>
           Started switching to{' '}
-          <Link href="https://www.typescriptlang.org/" target="_blank">
+          <Link href="//www.typescriptlang.org/" target="_blank">
             {' '}
             TypeScript
           </Link>{' '}
@@ -139,7 +132,7 @@ export default function Home() {
           <ListItem>Davinci Resolve</ListItem>
           <ListItem>IntelliJ Idea</ListItem>
           <ListItem>
-            <Link href="https://music.youtube.com/playlist?list=PL1jU4FFbs--cpeCIn0hyCErwT9aQIxnjd">
+            <Link href="//music.youtube.com/playlist?list=PL1jU4FFbs--cpeCIn0hyCErwT9aQIxnjd">
               My Lo-fi Playlist
             </Link>
           </ListItem>
@@ -151,7 +144,7 @@ export default function Home() {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/rithulkamesh" target="_blank">
+            <Link href="//github.com/rithulkamesh" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -162,7 +155,7 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/rithulkamesh" target="_blank">
+            <Link href="//twitter.com/rithulkamesh" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

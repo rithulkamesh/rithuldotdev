@@ -19,7 +19,7 @@ const project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/rithulkamesh/linky">
+          <Link href="//github.com/rithulkamesh/linky">
             https://github.com/rithulkamesh/linky <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

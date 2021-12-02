@@ -20,7 +20,7 @@ const ecoradius = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/ecoradius">
+          <Link href="//github.com/ecoradius">
             https://github.com/ecoradius <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

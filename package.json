@@ -27,6 +27,6 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "lint": "next lint",
-    "lint:format": "next lint && prettier --write ."
+    "fmt": "prettier --write ."
   }
 }

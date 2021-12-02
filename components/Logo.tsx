@@ -28,7 +28,7 @@ export default function Logo() {
           <Image src={image} width={20} height={20} alt="R in Potra" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily="@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');"
+            fontFamily="@import url('//fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');"
             letterSpacing={0}
             fontWeight="light"
             ml={3}

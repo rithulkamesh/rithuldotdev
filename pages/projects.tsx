@@ -14,8 +14,12 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
-          <WorkGridItem id="ecoradius" title="Ecoradius" thumbnail={thumbEcoradius}>
+        <Section>
+          <WorkGridItem
+            id="ecoradius"
+            title="Ecoradius"
+            thumbnail={thumbEcoradius}
+          >
             A mission to make the environment cleaner by making it fun.
           </WorkGridItem>
         </Section>
