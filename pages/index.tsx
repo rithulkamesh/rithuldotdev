@@ -129,7 +129,7 @@ export default function Home() {
           <ListItem>iTerm2</ListItem>
           <ListItem>Github</ListItem>
           <ListItem>Logic Pro X</ListItem>
-          <ListItem>Davinci Resolve</ListItem>
+          <ListItem>Final Cut Pro X</ListItem>
           <ListItem>IntelliJ Idea</ListItem>
           <ListItem>
             <Link href="//music.youtube.com/playlist?list=PL1jU4FFbs--cpeCIn0hyCErwT9aQIxnjd">
@@ -164,7 +164,20 @@ export default function Home() {
                 @rithulkamesh
               </Button>
             </Link>
+            
           </ListItem>
+          <ListItem>
+            <Link href="mailto:hi@rithul.dev" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<FaTwitter />}
+              >
+                hi@rithul.dev
+              </Button>
+            </Link>
+          </ListItem>
+
         </List>
       </Section>
     </Container>

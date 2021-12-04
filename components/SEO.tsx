@@ -5,7 +5,7 @@ export default function SEO({ page }: props) {
     <Head>
       <title>Rithul Kamesh - {page}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="Rithul's portfolio" />
+      <meta name="description" content="Just a random 15 year old on the internet making youtube videos for fun, and I do web dev coz why not :p" />
       <meta name="author" content="Rithul Kamesh" />
       <meta name="author" content="rithulkamesh" />
       <link rel="apple-touch-icon" href="apple-touch-icon.png" />
