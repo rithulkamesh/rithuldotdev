@@ -72,7 +72,7 @@ export default function Home() {
           I am a 15 year-old 11th grader. Currently Studying in BGS National
           Public School, I discovered and fell in love with Node.js around the
           early 2020s. My future interests are in Aeronautical Engineering and
-          Aritficial Intelligence. I ❤️ open source and create open source
+          Artificial Intelligence. I ❤️ open source and create open source
           projects a lot too.
         </Paragraph>
       </Section>
@@ -164,7 +164,6 @@ export default function Home() {
                 @rithulkamesh
               </Button>
             </Link>
-            
           </ListItem>
           <ListItem>
             <Link href="mailto:hi@rithul.dev" target="_blank">
@@ -177,7 +176,6 @@ export default function Home() {
               </Button>
             </Link>
           </ListItem>
-
         </List>
       </Section>
     </Container>
