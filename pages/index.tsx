@@ -11,7 +11,12 @@ import {
   Button
 } from '@chakra-ui/react';
 import React from 'react';
-import { FaGithub, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaMapMarkerAlt,
+  FaTwitter,
+  FaEnvelopeOpen
+} from 'react-icons/fa';
 import { BioYear, Bio } from '../components/Bio';
 import Paragraph from '../components/paragraph';
 import Section from '../components/Section';
@@ -170,7 +175,7 @@ export default function Home() {
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<FaTwitter />}
+                leftIcon={<FaEnvelopeOpen />}
               >
                 hi@rithul.dev
               </Button>
