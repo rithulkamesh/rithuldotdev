@@ -62,7 +62,7 @@ export default function Home() {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/photo.png"
+            src="/images/photo.webp"
             alt="Picture"
           />
         </Box>
