@@ -12,7 +12,7 @@ const Footer = () => (
       align={'center'}
     >
       <Stack direction={'row'} spacing={6}>
-        <Link href={'//blog.rithulk.me'} target="_blank">
+        <Link href={'//blog.rithul.dev'} target="_blank">
           Blog
         </Link>
         <Link href={'//github.com/rithulkamesh/website'} target="_blank">
