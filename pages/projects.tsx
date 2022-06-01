@@ -3,8 +3,8 @@ import Layout from '../components/layouts/article';
 import Section from '../components/Section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumblinky from '../public/images/projects/Linky.png';
-import thumbEcoradius from '../public/images/projects/ecoradius.png';
+import thumbWhisper from '../public/images/projects/whisper.png';
+
 import React from 'react';
 const Works = () => (
   <Layout title="Projects">
@@ -15,17 +15,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
-            id="ecoradius"
-            title="Ecoradius"
-            thumbnail={thumbEcoradius}
-          >
-            A mission to make the environment cleaner by making it fun.
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem id="linky" title="Linky" thumbnail={thumblinky}>
-            A self-hosted link shortener made with TypeScript and MySQL.
+          <WorkGridItem id="whisper" title="Whisper" thumbnail={thumbWhisper}>
+            A simple, anonymous chatting application made with socket.io.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

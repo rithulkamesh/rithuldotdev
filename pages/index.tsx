@@ -74,11 +74,8 @@ export default function Home() {
         </Heading>
         <Paragraph>
           {' '}
-          I am a 15 year-old 11th grader. Currently Studying in BGS National
-          Public School, I discovered and fell in love with Node.js around the
-          early 2020s. My future interests are in Aeronautical Engineering and
-          Artificial Intelligence. I ❤️ open source and create open source
-          projects a lot too.
+          I'm 16, and in 12th grade. Been snooping around code since I was 8, and have messed with a ton of languages and frameworks.
+          I have fallen in love with rust and building a lot of stuff with it. Stay tuned for info!
         </Paragraph>
       </Section>
       <Section delay={0.2}>
