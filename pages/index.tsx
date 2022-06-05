@@ -74,7 +74,7 @@ export default function Home() {
         </Heading>
         <Paragraph>
           {' '}
-          I'm 16, and in 12th grade. Been snooping around code since I was 8, and have messed with a ton of languages and frameworks.
+          I&apos;m 16, and in 12th grade. Been snooping around code since I was 8, and have messed with a ton of languages and frameworks.
           I have fallen in love with rust and building a lot of stuff with it. Stay tuned for info!
         </Paragraph>
       </Section>
